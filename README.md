@@ -62,8 +62,8 @@ ObjectFormField<DateTime>(
   },
 ),
 
-![Example1](example/example1.jpg)
-![Example2](example/example2.jpg)
+![Example1](https://raw.githubusercontent.com/JurajMlich/flutter_object_form_field/master/example/example1.jpg)
+![Example2](https://raw.githubusercontent.com/JurajMlich/flutter_object_form_field/master/example/example2.jpg)
 ```
 
 Contribution and Support
