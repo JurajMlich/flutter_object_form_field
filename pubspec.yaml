@@ -1,6 +1,6 @@
 name: flutter_object_form_field
 description: Form field allowing any type of field (date time, custom object, ...).
-version: 1.0.0
+version: 1.0.1
 author: Juraj Mlich <jurajmlich@gmail.com>
 homepage: https://github.com/JurajMlich/flutter_object_form_field
 

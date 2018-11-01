@@ -189,9 +189,11 @@ class _ObjectFormFieldState<T> extends FormFieldState<T> {
     final ThemeData themeData = Theme.of(context);
     final TextStyle style = widget.style ?? themeData.textTheme.subhead;
 
+    var stringValue = valueAsString;
+
     Widget child = RepaintBoundary(
       child: Text(
-        valueAsString ?? '',
+        stringValue ?? '',
         style: style,
         textAlign: widget.textAlign,
       ),
@@ -205,7 +207,7 @@ class _ObjectFormFieldState<T> extends FormFieldState<T> {
             decoration: _getEffectiveDecoration(),
             baseStyle: style,
             textAlign: widget.textAlign,
-            isEmpty: _effectiveController.value == null,
+            isEmpty: stringValue == null,
             child: child,
           );
         },
