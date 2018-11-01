@@ -62,8 +62,6 @@ ObjectFormField<DateTime>(
   },
 ),
 ```
-![Example1](example/example1.jpg =200px)
-![Example2](example/example2.jpg =200px)
 
 Contribution and Support
 --
